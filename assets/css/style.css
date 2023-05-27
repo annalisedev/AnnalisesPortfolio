@@ -41,19 +41,18 @@
     color: rgb(74, 49, 185);
   }
 
+
   .section {
     display: flex;
     align-content: flex-start;
     width: 90%;
     margin: 5%;
-    padding: 3%;
+    padding: 1%;
   }
 
   .section-title {
     display: flex;
     align-content: left;
-    border-right: #13293d;
-    border-width: 3px;
   }
 
   .section-details {
@@ -62,6 +61,69 @@
   }
 
   #ul-contact-links li{
-    display:inline;
+    display: inline;
     margin: 3%;
   }
+
+  .card {
+    flex: 1 1 0px;
+    padding: 10px;
+    float:left;
+    width: 50%;
+    text-align: center;
+  }
+
+  .wavescard {
+    flex: 2 1 0px;
+    padding: 10px;
+    float:left;
+    width: 100%;
+    text-align: center;
+  }
+
+  .wavescard:hover {
+    opacity: 0.5;
+  }
+
+  .card:hover {
+    opacity: 0.5;
+  }
+
+  h3 {
+    font-size: 120%;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #0e0d0d;
+    border-top-left-radius:3%;
+    border-top-right-radius: 3%;
+  }
+
+  .card img {
+    max-width: 100%;
+    min-width: 100px;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+  }
+
+  .wavescard img {
+    width: 100%;
+    min-width: 200px;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+  }
+
+  .headshot {
+    display: inline-block;
+    max-width: 25%;
+    min-width: 50px;
+    border-radius: 3%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 100%
+    }
+
+    #ul-contact-links li {
+      display: block;
+    } }
