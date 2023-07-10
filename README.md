@@ -10,8 +10,7 @@ This page is built with HTML and CSS at this stage.
 
 The GitHub repository is found here https://github.com/annalisedev/challengetwo 
 
-Note: As I do not have any current applications to showcase, I have included a link to my GitHub repository in place of this when you click the image links on the page. This is a placeholder.
-
+Note: Where I do not have applications I have included placeholders linking to my Github.
 ## Screenshot of the page
 A screenshot of the page can be found at ./assets/images/portfoliopage.png
 
